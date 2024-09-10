@@ -24,7 +24,7 @@ const getCurrentMoscowTime = () => {
 
             try {
                 const response = await axios.post(
-                    'https://0xf746a3bf124b8ed94680e4bbdcb3895180c87d04.us.gaianet.network/v1/chat/completions',
+                    'https://0xbc10c5153f8fd668f1a0669beb0b90369e7fd0e8.us.gaianet.network/v1/chat/completions',
                     {
                         'messages': [
                             {
